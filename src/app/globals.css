@@ -30,3 +30,9 @@ body,
     grid-template-rows: repeat(8, 7.5vh);
   }
 }
+
+@media (max-width: 768px) {
+  .sidebar-collapsed {
+    display: none; /* Menyembunyikan sidebar pada layar kecil */
+  }
+}
